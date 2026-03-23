@@ -9,7 +9,7 @@ function App() {
     <>
       <Leva collapsed={true} hidden />
       <Loader />
-      <Stats/>
+      {/* <Stats/> */}
       <Canvas shadows camera={{ position: [0, 3, 20], fov: 50 }}>
         <color attach="background" args={["#131017"]} />
         <ScrollControls pages={4} damping={0.2}>
